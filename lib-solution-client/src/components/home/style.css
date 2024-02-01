@@ -1,0 +1,74 @@
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.single-book {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 1px 1px 8px 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+font-family: 'Times New Roman', Times, serif;
+  font-size:13px;
+  text-transform: uppercase;
+  color: #0c065d;
+  font-weight: bold;
+}
+
+.single-book-record {
+  width: 400px;
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: sans-serif;
+  font-size:13px;
+  text-transform: uppercase;
+  color: #060664;
+  font-weight: bold;
+
+}
+.issued-class{
+  position: absolute;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-card{
+  font-size:13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #420303;
+}
+
+.book-list {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.remove-scroll {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
+}
+
+.remove-scroll::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
